@@ -1,7 +1,7 @@
 let noMessages = [
     "For real?", "Wrong choice!", "Still here?", "Think again...", 
     "Last chance!", "You're making a mistake!", "Just say yes!", 
-    "Give up yet?", "Okay, seriously?", "Come on!", "Almost there!", "Fine, you win!"
+    "Give up yet?"
 ];
 let growthCount = 0;
 function growYes() {
