@@ -28,6 +28,9 @@ function growYes() {
         yesButton.style.width = "100vw";
         yesButton.style.height = "100vh";
         yesButton.style.fontSize = "5rem";
+        yesButton.style.display = "flex";
+        yesButton.style.justifyContent = "center";
+        yesButton.style.alignItems = "center";
         yesButton.innerHTML = "You have no choice! ❤️";
         noButton.style.display = "none";
     }
