@@ -22,7 +22,9 @@ function growYes() {
         }, 300);
         
     } else {
-        yesButton.style.position = "absolute";
+        yesButton.style.position = "fixed";  
+        yesButton.style.top = "0";
+        yesButton.style.left = "0";
         yesButton.style.width = "100vw";
         yesButton.style.height = "100vh";
         yesButton.style.fontSize = "5rem";
