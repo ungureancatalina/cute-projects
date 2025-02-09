@@ -4,29 +4,17 @@ body {
     align-items: center;
     height: 100vh;
     flex-direction: column;
-    background-color: pink;
     font-family: Arial, sans-serif;
     text-align: center;
+    overflow: hidden;
+    position: relative;
+    background: url('imag.png') no-repeat center center fixed;
+    background-size: cover;
 }
 
 h1 {
     font-size: 2rem;
-    animation: pulse 1.5s infinite alternate; 
-}
-
-@keyframes pulse {
-    0% {
-        transform: scale(1); 
-        color: #690ba0; 
-    }
-    50% {
-        transform: scale(1.1); 
-        color: #500303;
-    }
-    100% {
-        transform: scale(1); 
-        color: #690ba0; 
-    }
+    animation: pulse 1.5s infinite alternate;
 }
 
 .buttons {
@@ -52,4 +40,90 @@ button {
 #no {
     background-color: white;
     color: red;
+}
+
+.shake {
+    animation: shake 0.3s ease-in-out;
+}
+
+#hearts-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+    overflow: hidden;
+}
+
+.heart {
+    position: absolute;
+    color: red;
+    font-size: 20px;
+    animation: floatUp 2s linear forwards;
+    opacity: 0.8;
+}
+
+#toggle-music {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    z-index: 1000;
+}
+
+.animated-text {
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 0 0 10px #ff0066, 0 0 20px #ff3399, 0 0 30px #ff66cc;
+    animation: bounce 1.5s infinite alternate, glow 2s infinite alternate;
+}
+
+.love-gif {
+    width: 300px;
+    height: auto;
+    margin-top: 20px;
+    animation: scaleUp 2s infinite alternate;
+}
+
+
+
+@keyframes pulse {
+    0% { transform: scale(1); color: hsl(0, 87%, 22%);}
+    50% { transform: scale(1.1); color: hsl(0, 93%, 16%); }
+    100% { transform: scale(1); color:hsl(0, 87%, 22%); }
+}
+
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+}
+
+@keyframes floatUp {
+    0% { transform: translateY(0) scale(1); opacity: 1; }
+    100% { transform: translateY(-100vh) scale(0); opacity: 0; }
+}
+
+@keyframes bounce {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+}
+
+@keyframes glow {
+    0% { text-shadow: 0 0 10px #ff0066, 0 0 20px #ff3399; }
+    100% { text-shadow: 0 0 20px #ff0066, 0 0 30px #ff3399; }
+}
+
+@keyframes scaleUp {
+    0% { transform: scale(1); }
+    100% { transform: scale(1.1); }
 }
