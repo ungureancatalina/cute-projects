@@ -18,11 +18,16 @@ The goal of this collection is to build joyful and accessible experiences while 
 
 ## Project Categories
 
-- **Minigames**  
-  Small browser-based games using vanilla JavaScript
+### Minigames
+A set of browser-based games made with plain JavaScript:
 
-- **Valentine's Day**  
-  Themed interactive page for fun and creative expression
+- **Rock Paper Scissors** – Classic game with simple input and scoring logic  
+- **Tic-Tac-Toe** – Two-player board game with win detection  
+- **Match Pairs** – Memory card matching game  
+- **Puzzle** – Tile shuffling puzzle that can be solved by reordering pieces
+
+### Valentine's Day
+A themed interactive page with custom animations and styled messages for special occasions.
 
 ---
 
@@ -30,7 +35,7 @@ The goal of this collection is to build joyful and accessible experiences while 
 
 ### Requirements
 - A modern web browser (Chrome, Firefox, Edge, Safari)
-- No external server or backend required
+- No server or backend setup is required
 
 ### Steps
 
@@ -40,8 +45,11 @@ git clone https://github.com/ungureancatalina/cute-projects
 cd cute-projects
 ```
 
-2. Navigate to any folder (e.g. `minigames/` or `valentine/`)  
-3. Open the `.html` file with your browser:
-   - Right-click → Open With → your browser  
-   - Or double-click the file
+2. Navigate to any folder, such as:
+   - `minigames/rock-paper-scissors.html`
+   - `minigames/tic-tac-toe.html`
+   - `valentine/valentine.html`
 
+3. Open the `.html` file in your browser:
+   - Right-click → Open with browser  
+   - Or drag the file directly into a browser window
