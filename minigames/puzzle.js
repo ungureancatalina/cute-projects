@@ -12,10 +12,9 @@ let tiles = [];
 let movesCount = 0;
 let firstSelected = null;
 let secondSelected = null;
-let imageURL = ""; // Variable to hold the chosen image URL
+let imageURL = ""; 
 
 function initPuzzle() {
-    // Randomly select an image from the available options
     imageURL = imageURLs[Math.floor(Math.random() * imageURLs.length)];
     
     movesCount = 0;
