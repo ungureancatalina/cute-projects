@@ -1,5 +1,65 @@
-Cute Projects is a collection of small and fun JavaScript-based applications. These projects explore various web development concepts and include interactive elements designed for entertainment and learning. To use them, clone the repository, navigate to the project folder, and open the respective HTML files in a browser.
+## About the Project
 
-## Web projects
-- [Minigames](https://github.com/ungureancatalina/Cute-projects/tree/main/minigames)
-- [Valentine's Day](https://github.com/ungureancatalina/Cute-projects/tree/main/valentine)
+**Cute Projects** is a collection of small, creative, and fun JavaScript-based web applications. These mini-projects are designed for learning, experimentation, and entertainment. Each one focuses on different aspects of web development such as DOM manipulation, animations, game logic, or interactive UI elements.
+
+The goal of this collection is to build joyful and accessible experiences while exploring frontend development with HTML, CSS, and JavaScript.
+
+---
+
+## Technologies Used
+
+| Technology | Purpose                         |
+|------------|----------------------------------|
+| HTML5      | Markup structure                 |
+| CSS3       | Styling and layout               |
+| JavaScript | Application logic and interaction |
+
+---
+
+## Project Categories
+
+- **Minigames**  
+  Small browser-based games using vanilla JavaScript
+
+- **Valentine's Day**  
+  Themed interactive page for fun and creative expression
+
+---
+
+## Project Structure
+
+```
+cute-projects/
+├── web-projects/
+│   ├── [project-name].html
+│   ├── ...
+├── minigames/
+│   ├── [game-name].html
+│   └── ...
+├── valentine/
+│   ├── love-note.html
+│   └── animations/
+└── README.md
+```
+
+---
+
+## How to Run
+
+### Requirements
+- A modern web browser (Chrome, Firefox, Edge, Safari)
+- No external server or backend required
+
+### Steps
+
+1. Clone the repository:
+```bash
+git clone https://github.com/ungureancatalina/cute-projects
+cd cute-projects
+```
+
+2. Navigate to any folder (e.g. `minigames/` or `valentine/`)  
+3. Open the `.html` file with your browser:
+   - Right-click → Open With → your browser  
+   - Or double-click the file
+
