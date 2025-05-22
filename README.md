@@ -26,24 +26,6 @@ The goal of this collection is to build joyful and accessible experiences while 
 
 ---
 
-## Project Structure
-
-```
-cute-projects/
-├── web-projects/
-│   ├── [project-name].html
-│   ├── ...
-├── minigames/
-│   ├── [game-name].html
-│   └── ...
-├── valentine/
-│   ├── love-note.html
-│   └── animations/
-└── README.md
-```
-
----
-
 ## How to Run
 
 ### Requirements
