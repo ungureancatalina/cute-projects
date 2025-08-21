@@ -9,7 +9,8 @@ The goal of this collection is to build joyful and accessible experiences while 
 ## Live Demo
 
  **View it here:**  
- [Personal Portofolio](https://ungureancatalina.github.io/personal_portofolio)
+ [Minigames](https://ungureancatalina.github.io/cute-projects/minigames/)
+ [Valentine](https://ungureancatalina.github.io/cute-projects/valentine/)
 
 ---
 
