@@ -6,6 +6,13 @@ The goal of this collection is to build joyful and accessible experiences while 
 
 ---
 
+## Live Demo
+
+ **View it here:**  
+ [Personal Portofolio](https://ungureancatalina.github.io/personal_portofolio)
+
+---
+
 ## Technologies Used
 
 | Technology | Purpose                         |
@@ -31,31 +38,7 @@ A themed interactive page with custom animations and styled messages for special
 
 ---
 
-## How to Run
-
-### Requirements
-- A modern web browser (Chrome, Firefox, Edge, Safari)
-- No server or backend setup is required
-
-### Steps
-
-1. Clone the repository:
-```bash
-git clone https://github.com/ungureancatalina/cute-projects
-cd cute-projects
-```
-
-2. Navigate to any folder, such as:
-   - `minigames/rock-paper-scissors.html`
-   - `minigames/tic-tac-toe.html`
-   - `valentine/valentine.html`
-
-3. Open the `.html` file in your browser:
-   - Right-click → Open with browser  
-   - Or drag the file directly into a browser window
-  
-4. This is how it looks like:
-  
+## This is how it looks like:
   
   
 ![Screenshot 2025-07-02 204823](https://github.com/user-attachments/assets/b4761c14-9c1a-4842-bce4-dd16bfe8217d)
